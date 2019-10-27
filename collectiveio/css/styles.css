@@ -1,0 +1,91 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0px;
+    color: #4a4a4a;
+    line-height: 1.4;
+}
+
+
+/* ----- Index Header ----- */
+.landing_header {
+    background-image: url("../images/collaboration-banner-bg-light.original.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+nav.header_nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 0px;
+    padding-top: 15px;
+}
+
+.nav_button a, a:after{
+    text-decoration: none;
+    font-weight: 600;
+    color: #77838F;
+}
+.nav_button a:hover{
+    color: rgb(121, 121, 251);
+    transition: .1s;
+}
+
+li.header_nav_logo img{
+    width: 200px;
+    margin-right: 300px;
+}
+
+li.nav_button {
+    padding: 10px;
+    padding: 10px 15px 10px 15px;
+}
+
+li.last_nav {
+    position: relative;
+    transition: top ease 0.2s;
+    top: 0;
+    background: #377DFF;
+    border-radius: 5px;
+}
+
+li.last_nav:hover {
+    top: -4px;
+    box-shadow: 0px 5px 10px -1px rgba(55,125,255,1);
+}
+
+.nav_button a.last_nav_link {
+    color: #FAFCFF;
+}
+
+header .header_slogan {
+    margin-top: 225px;
+    margin-left: auto;
+    margin-right: 53%;
+    text-align: start;
+    width: 475px;
+}
+
+header div.header_slogan h1 {
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 1em;
+    letter-spacing: 3px;
+    color: black;
+}
+
+header div.header_slogan h4 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #77838F;
+    letter-spacing: 1px;
+}
