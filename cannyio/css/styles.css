@@ -115,3 +115,26 @@ section.header_sponsors img {
     margin-left: 40px;
     margin-right: 40px;
 }
+
+p.see_how {
+    position: absolute;
+    left: 55%;
+    top:250px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #525DF9;
+    border-style: solid;
+    background: white;
+    width: 210px;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+}
+
+p a.see_how_button {
+    text-decoration: none;
+    padding: 20px 25px 20px 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #525DF9;
+}
