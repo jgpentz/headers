@@ -41,7 +41,7 @@ nav.header_nav img {
 }
 
 nav ul li.header_nav_logo {
-    margin-right: 500px;
+    margin-right: 600px;
 }
 
 li.header_nav_button {
@@ -49,6 +49,69 @@ li.header_nav_button {
     margin-right: 15px;
 }
 
+header section.header_info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 75px;
+}
+
+section.header_info div.header_info_text {
+    width: 300px;
+    text-align: start;
+    margin-right: 50px;
+}
+
 header section.header_info img   {
-    width: 500px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+div.header_info_text h2 {
+    font-size: 26px;
+    letter-spacing: 1.2px;
+}
+
+div.header_info_text h4 {
+    color: #666666;
+    letter-spacing: .7px;
+    font-weight: 500;
+}
+
+p.header_info_button a {
+    text-decoration: none;
+    background: #6DD345;
+    padding: 20px 25px 20px 25px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    transition: 300ms;
+}
+
+p.header_info_button a:hover {
+    background: rgb(149, 226, 118);
+}
+
+div p.header_info_button {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+div p.header_info_free {
+    font-size: 12px;
+    letter-spacing: .7px;
+}
+
+header section.header_sponsors {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+section.header_sponsors img {
+    width: 100px;
+    height: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
