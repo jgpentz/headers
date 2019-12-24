@@ -1,0 +1,95 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 0px;
+  color: #4a4a4a;
+  line-height: 1.4;
+}
+
+header {
+  background: radial-gradient(circle, #0179bf 0%, #336dc3 100%);
+  padding-bottom: 80px;
+}
+header nav ul {
+  margin: 0 25px 0 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+header nav ul div {
+  display: flex;
+  flex-direction: row;
+}
+header nav ul div li {
+  margin-left: 25px;
+  align-self: center;
+}
+header nav ul div li a {
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+header nav ul div li a:hover {
+  text-decoration: underline;
+}
+header nav ul div li a.header_button {
+  padding: 10px 12px 10px 12px;
+  border-radius: 3px;
+  background: white;
+  color: #0079bf;
+}
+header nav ul div li a.header_button:hover {
+  text-decoration: none;
+}
+header div.header_hero_compartments {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+header div.header_hero_compartments div.hero_info {
+  display: flex;
+  flex-direction: row;
+}
+header div.header_hero_compartments div.hero_info div.hero_text {
+  overflow: visible;
+  max-width: 425px;
+  text-align: left;
+  color: white;
+  margin-right: 125px;
+}
+header div.header_hero_compartments div.hero_info div.hero_text h1 {
+  font-size: 42px;
+}
+header div.header_hero_compartments div.hero_info div.hero_text h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+header div.header_hero_compartments form {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+header div.header_hero_compartments form #header_email_input {
+  padding: 15px 20px 15px 20px;
+  border-radius: 5px;
+  width: 325px;
+  font-size: 22px;
+}
+header div.header_hero_compartments form input.header_email_button {
+  margin-left: 15px;
+  border-radius: 5px;
+  width: 275px;
+}
+
+/*# sourceMappingURL=styles.css.map */

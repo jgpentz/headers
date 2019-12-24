@@ -1,0 +1,102 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0px;
+    color: #4a4a4a;
+    line-height: 1.4;
+}
+
+header {
+    background: radial-gradient(circle, rgba(1,121,191,1) 0%, rgba(51,109,195,1) 100%);
+    padding-bottom: 80px;
+    nav {
+        ul {
+            margin: 0 25px 0 0px;
+            padding-left: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            list-style: none;
+            div {
+                display: flex;
+                flex-direction: row;
+                li {
+                    margin-left: 25px;
+                    align-self: center;
+                    a {
+                        font-weight: 600;
+                        text-decoration: none;
+                        color: white;
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                }
+                li a.header_button {
+                    padding: 10px 12px 10px 12px;
+                    border-radius: 3px;
+                    background: white;
+                    color: #0079bf;
+                }
+                li a.header_button:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    div.header_hero_compartments {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+
+        div.hero_info {
+            display: flex;
+            flex-direction: row;
+
+            div.hero_text {
+                overflow: visible;
+                max-width: 425px;
+                text-align: left;
+                color: white;
+                margin-right: 125px;
+
+                h1 {
+                    font-size: 42px;
+                }
+                h3 {
+                    font-size: 24px;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        form {
+            align-self: flex-start;
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+
+            #header_email_input {
+                padding: 15px 20px 15px 20px;
+                border-radius: 5px;
+                width: 325px;
+                font-size: 22px;
+            }
+
+            input.header_email_button {
+                margin-left: 15px;
+                border-radius: 5px;
+                width: 275px;
+            }
+        }
+    }
+}
