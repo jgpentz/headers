@@ -1,0 +1,109 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0px;
+    color: #4a4a4a;
+    line-height: 1.4;
+}
+
+
+/* ----- Index Header ----- */
+header {
+    margin-top: 20px;
+}
+
+header ul.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+ul li.header_nav_logo img{
+    width: 150px;
+}
+
+ul li.header_nav_item a{
+    text-decoration: none;
+    color: #8190B5;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+ul div.header_nav_links {
+    display: flex;
+}
+
+ul li.header_nav_button a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+    background: #11b76b;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+header h2.header_coupon {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #309dd4;
+    color: white;
+    font-size: 18px;
+    letter-spacing: .5px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+h2 a {
+    color: white;
+}
+
+header h1.header_tagline {
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+header h2.header_tagline_info {
+    color: #8190B5;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+header p.header_cta_button a{
+    background: #fc5778;
+    border-radius: 4px;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    letter-spacing: .8px;
+}
+
+header p.header_cta_button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+header img.header_hero_img {
+    width: 900px;
+    align-self: center;
+}
+
+header div.header_hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(#fff1c2, #ffd64f);
+}

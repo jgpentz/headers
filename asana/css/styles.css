@@ -1,0 +1,50 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 0px;
+  color: #4a4a4a;
+  line-height: 1.4;
+}
+
+nav.main_header {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav.main_header ul {
+  margin-top: 5px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+nav.main_header ul div {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+nav.main_header ul div li {
+  width: auto;
+  margin-left: 35px;
+  align-self: center;
+}
+nav.main_header ul div li a {
+  text-decoration: none;
+  color: #6481af;
+}
+nav.main_header ul div li.main_navbar_logo {
+  width: 180px;
+  margin-left: 15px;
+}
+nav.main_header ul div.main_navbar_leftside {
+  margin-right: 250px;
+}
+nav.main_header ul div.main_navbar_rightside li {
+  width: auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
